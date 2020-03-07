@@ -1,0 +1,137 @@
+body {
+	background-image: url(images/fond.png);
+	color: black;
+	font-family: 'Esteban', serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+	h2, h3 {
+	font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+	color: black;
+	font-size: 45px;
+	font-weight: 20;
+	letter-spacing: 4px;
+	font-family: 'Open Sans Condensed', ;
+}
+h2 {
+	color: #bd8b8a;
+	font-size: 35px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: white;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #f7f7f7;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 7px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue {
+	background-color:black;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color:#bf9846;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(100, 100, 100);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#introduction h1 {
+	margin-bottom: 30px;
+}
+
+#introduction img {
+	margin-bottom: 12px;
+
+}
+
+#introduction  {
+	background-image:  url(images/carré.jpg);
+	background-position:center;
+	background-size: 575px;
+}
+
+
+#little {
+	background-image: url(images/travel.jpg)
+
+
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+
